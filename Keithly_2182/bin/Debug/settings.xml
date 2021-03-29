@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Device>
+    <portname>COM1</portname>
+    <baudrate>19200</baudrate>
+    <parity>None</parity>
+    <databits>8</databits>
+    <stopbits>One</stopbits>
+    <handshake>None</handshake>
+    <readtimeout>1800</readtimeout>
+    <writetimeout>1800</writetimeout>
+  </Device>
+  <MSet>
+    <MeasureCounts>1</MeasureCounts>
+    <StatCounts>1</StatCounts>
+    <Round>0</Round>
+    <TimeOut>0</TimeOut>
+    <Units>mV</Units>
+    <Range>Auto</Range>
+    <AFilter>ON</AFilter>
+    <DFilter>ON</DFilter>
+    <Rate>slow</Rate>
+    <Chart>false</Chart>
+    <DelPoints>0</DelPoints>
+  </MSet>
+</Settings>
